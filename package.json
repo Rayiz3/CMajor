@@ -27,9 +27,9 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.6",
-    "hy-drawer": "^1.0.0-pre.21",
-    "hy-push-state": "^1.0.0-pre.21"
+    "bootstrap": "^5.3.8",
+    "hy-drawer": "^1.0.0-uvw.0",
+    "hy-push-state": "^1.0.0-uvw.0"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
