@@ -109,6 +109,13 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     margin-bottom: 0.5rem;
     width: fit-content;
     color: var(--site-title-color);
+
+    span {
+      font-size: 1.2rem;
+      font-weight: 600;
+      line-height: 1.0;
+      margin-left: 0.2rem;
+    }
   }
 
   .site-subtitle {
