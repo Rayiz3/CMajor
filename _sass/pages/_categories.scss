@@ -15,16 +15,46 @@
   }
 
   .card-header {
-    $radius: calc(v.$radius-lg - 1px);
+    position: relative;
 
-    padding: 0.75rem;
+    $radius: calc(v.$radius-lg - 1px);
+    padding: 0;
     border-radius: $radius;
     border-bottom: 0;
+    overflow: hidden;
 
-    &.hide-border-bottom {
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
     }
+
+    .label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 20%;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+
+      border-bottom-left-radius: calc(v.$radius-lg - 1px);
+      border-bottom-right-radius: calc(v.$radius-lg - 1px);
+
+      .title {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      .counts {
+        font-size: 0.8rem;
+        font-weight: 400;
+      }
+    }
+  }
+    
+  &:hover {
+    text-decoration: none;
   }
 
   i {

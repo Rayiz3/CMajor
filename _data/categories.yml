@@ -1,0 +1,19 @@
+cm101:
+  title: "CM101. 공지사항"
+  image: /assets/img/thumbnails/cm101/1.png
+  alt: "CM101"
+
+cm201:
+  title: "CM201. 이산수학"
+  image: /assets/img/thumbnails/cm201/0.png
+  alt: "CM201"
+
+cm202:
+  title: "CM202. 데이터 구조"
+  image: /assets/img/thumbnails/cm202/0.png
+  alt: "CM202"
+
+cm301:
+  title: "CM301. 알고리즘"
+  image: /assets/img/thumbnails/cm301/0.png
+  alt: "CM301"

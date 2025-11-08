@@ -22,6 +22,7 @@
   .card {
     border: 0;
     background: none;
+    overflow: hidden;
 
     %img-radius {
       border-radius: v.$radius-lg v.$radius-lg 0 0;
